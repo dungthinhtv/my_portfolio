@@ -73,7 +73,7 @@ const HomePage = () => {
         <InfoBox currentStage={currentStage} />
 
         <div className="logo-container">
-          <img src={mediaConstants.logo} alt="Emilian Kasemi" />
+          <img src={mediaConstants.logo} alt="Đặng Quốc Dũng" />
         </div>
 
         <PlayButton isPlaying={isPlaying} setIsPlaying={setIsPlaying} />

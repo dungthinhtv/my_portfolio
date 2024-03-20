@@ -20,8 +20,8 @@ function About() {
             alt="Profile"
           />
           <div className="about-me-greetings">
-            <span className="about-me-hi">Hi, I am </span>
-            <span className="about-me-name">Emilian Kasemi</span>
+            <span className="about-me-hi">Hi, I am</span>
+            <span className="about-me-name">Đặng Quốc Dũng</span>
 
             <img
               className="about-me-vector-image"
@@ -32,14 +32,15 @@ function About() {
         </div>
         <div className="about-me-description">
           <p>
-            Hi, I am Emilian Kasemi. I am a Software Engineer.I am from Albania.
+            Hi, I am Đặng Quốc Dũng. I am a Software Engineer.I am from Vietnam.
             Front-End Engineer / Creative Developer / Game Developer Seeking to
             take the next step in my career, I am constantly updating my
             expertise, from Web Development to Game Design. Currently, I am
-            working as a Front-End Engineer at OMRT. OMRT builds a Deep Tech
-            design platform for real estate development. The product of OMRT is
-            a collection of architectural design, physics, finance, and material
-            modules that are connected within one digital brain.
+            working as a Front-End Engineer at DUNGTHINH. DUNGTHINH builds a
+            Deep Tech design platform for real estate development. The product
+            of DUNGTHINH is a collection of architectural design, physics,
+            finance, and material modules that are connected within one digital
+            brain.
           </p>
         </div>
 
@@ -79,7 +80,7 @@ function About() {
 
           <Suspense fallback={<Loader />}>
             <CartoonPlane
-              position={[1.84, -58.7, -8]} // or X axis 1.84 , Y axis -58.7 
+              position={[1.84, -58.7, -8]} // or X axis 1.84 , Y axis -58.7
               rotation={[0.02, 2.947, 0]} // or Y axis 2.576
               scale={[5, 5, 5]}
             />

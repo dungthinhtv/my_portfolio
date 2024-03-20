@@ -4,7 +4,7 @@ import "./IntroCard.css";
 const IntroCard = () => {
   return (
     <p className="intro-text">
-      Hi, I am Emilian Kasemi 👋 <br /> Software Engineer based in Albania.
+      Hi, I am Đặng Quốc Dũng 👋 <br /> Software Engineer based in Vietnam.
     </p>
   );
 };

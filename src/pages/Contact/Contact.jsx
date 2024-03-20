@@ -51,7 +51,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "emiliankasemi@gmail.com",
+        "dungthinhtv@gmail.com",
         "template_m5l6wr2",
         form.current,
         "5zVfhEo2E4976_CIU"
@@ -128,21 +128,21 @@ const Contact = () => {
                   <img src={github} alt="GitHub" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/emilian-kasemi/"
+                  href="https://www.linkedin.com/in/dzung-dang/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img src={linkedin} alt="LinkedIn" />
                 </a>
                 <a
-                  href="https://www.youtube.com/c/EmilianKasemi"
+                  href="https://www.youtube.com/c/dungthinhtv"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img src={youtube} alt="YouTube" />
                 </a>
                 <a
-                  href="https://twitter.com/EmilianKasemi"
+                  href="https://twitter.com/dungthinhtv"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -162,12 +162,12 @@ const Contact = () => {
               <div className="contact-via">
                 <div className="email-info">
                   <img src={emailIcon} alt="Email Icon" />
-                  <p>emiliankasemi@email.com</p>
+                  <p>dungthinhtv@email.com</p>
                 </div>
 
                 <div className="phone-info">
                   <img src={phoneIcon} alt="Phone Icon" />
-                  <p>+355 68 809 7086</p>
+                  <p>+84 986 242 487</p>
                 </div>
               </div>
             </div>
@@ -195,7 +195,7 @@ const Contact = () => {
             <Suspense fallback={<Loader />}>
               <Fox
                 currentAnimation={currentAnimation}
-                position={foxPosition} 
+                position={foxPosition}
                 rotation={[12.629, 5.254, 0]}
                 scale={[2, 2, 2]}
               />
